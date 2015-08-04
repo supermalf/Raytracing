@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Trab2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MALF\LOCALS~1\Temp\RSPD3E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I ".\inc" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/Trab2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\MALF\Desktop\t2\raytracing.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MALF\LOCALS~1\Temp\RSPD3E.tmp" 
+Creating temporary file "C:\DOCUME~1\MALF\LOCALS~1\Temp\RSPD3F.tmp" with contents
+[
+comctl32.lib opengl32.lib glu32.lib iup.lib iupgl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Trab2.pdb" /debug /machine:I386 /nodefaultlib:"libc.lib" /out:"Debug/Trab2.exe" /pdbtype:sept /libpath:".\lib" 
+".\Debug\algebra.obj"
+".\Debug\camera.obj"
+".\Debug\color.obj"
+".\Debug\IconLib.obj"
+".\Debug\image.obj"
+".\Debug\light.obj"
+".\Debug\mainIUP.obj"
+".\Debug\material.obj"
+".\Debug\object.obj"
+".\Debug\raytracing.obj"
+".\Debug\scene.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\MALF\LOCALS~1\Temp\RSPD3F.tmp"
+<h3>Output Window</h3>
+Compiling...
+raytracing.c
+Linking...
+
+
+
+<h3>Results</h3>
+Trab2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
